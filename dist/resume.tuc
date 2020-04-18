@@ -19,7 +19,7 @@ if not utilitydata.job.variables then utilitydata.job.variables = { } end
 
 utilitydata.job.variables.collected={
  ["macros"]={},
- ["randomseed"]=0.94081518423782,
+ ["randomseed"]=0.038850144035579,
  ["sectionblockorder"]={},
 }
 
@@ -140,12 +140,12 @@ utilitydata.structures.lists.collected={
    ["block"]="bodypart",
    ["internal"]=1,
    ["realpage"]=1,
-   ["reference"]="artem-kobzar-111",
+   ["reference"]="artem-kobzar",
    ["section"]=1,
   },
   ["titledata"]={
    ["label"]="section",
-   ["title"]="Artem Kobzar 111",
+   ["title"]="Artem Kobzar",
   },
  },
  {
