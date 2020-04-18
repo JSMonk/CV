@@ -1,0 +1,300 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+\setupxtable[frame=off,option={stretch,width}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\section[title={Artem Kobzar},reference={artem-kobzar}]
+
+\startplacetable[location=none]
+\startxtable
+\startxtablebody[body]
+\startxrow
+\startxcell[align=right] Kharkiv, Ukraine (ready to relocate) \stopxcell
+\stopxrow
+\startxrow
+\startxcell[align=right] Email:
+\useURL[url1][mailto:a.kobzar.nlt@gmail.com][][a.kobzar.nlt@gmail.com]\from[url1] \stopxcell
+\stopxrow
+\startxrow
+\startxcell[align=right] GitHub:
+\useURL[url2][https://github.com/JSMonk][][JSMonk]\from[url2] \stopxcell
+\stopxrow
+\stopxtablebody
+\startxtablefoot[foot]
+\startxrow
+\startxcell[align=right] Twitter:
+\useURL[url3][https://twitter.com/rage_monk][][\type{@rage_monk}]\from[url3] \stopxcell
+\stopxrow
+\stopxtablefoot
+\stopxtable
+\stopplacetable
+
+\subsection[title={Education},reference={education}]
+
+\startdescription{2019-2021 (expected)}
+  {\bf MSc, Software Engineering};
+  \useURL[url4][http://www.kpi.kharkov.ua/eng/][][National Technical
+  University \quotation{Kharkiv Polytechnic Institute}]\from[url4]
+\stopdescription
+
+\startdescription{2015-2019}
+  {\bf BSc, Computer Engineering};
+  \useURL[url5][http://www.kpi.kharkov.ua/eng/][][National Technical
+  University \quotation{Kharkiv Polytechnic Institute}]\from[url5]
+\stopdescription
+
+\subsection[title={Experience},reference={experience}]
+
+{\bf The Most Recent Work Experience:}
+
+I worked (from September 2019 to May 2020) at
+\useURL[url6][https://www.wrike.com/][][Wrike Company]\from[url6] in a
+new Research and Development Team.
+
+I and my teammates (other 2 people) built development analytic process
+and developed infrastructure for the process from scratch.
+
+My responsibilities areas in the work were:
+
+\startitemize
+\item
+  Analysis platform.
+\item
+  Knowledgebase (an API which store project attributes).
+\item
+  DX Improvement Tools (editor extensions, GitLab webhooks, etc)
+\stopitemize
+
+We already got results: defined separated responsibility area for our
+teams, which improved the development process (fast search and
+communication with code owner) and more productive replacing of
+deprecated technologies from the product.
+
+{\bf Other Recent Job I Had}
+
+\startitemize
+\item
+  \useURL[url7][https://hy.dev/][][HellYeah]\from[url7] Research
+  Department. I worked on cryptography libraries related to digital
+  signatures and private cryptocurrencies clients with high-level
+  safety. As a result of research, I developed zero-dependency
+  cryptocurrencies clients, which currently used in private
+  projects(NDA).
+\item
+  \useURL[url8][https://www.upwork.com/o/companies/~019c0fc838498df613/][][WookieeLabs]\from[url8].
+  \useURL[url9][https://www.upwork.com/o/profiles/users/~01743ab09e751efe1c/][][My
+  Upwork profile at the company]\from[url9]. I worked at different
+  outsource projects as a software engineer:
+  \useURL[url10][https://www.primero.org/][][Unicef
+  Primero]\from[url10],
+  \useURL[url11][https://www.nextlead.io/][][NextLead]\from[url11],
+  \useURL[url12][https://crossoverhealth.com/][][Crossover
+  Health]\from[url12].
+\stopitemize
+
+\subsection[title={Technical Skills},reference={technical-skills}]
+
+{\bf \quotation{Primary} Technologies}
+
+I commonly work with \type{JavaScript} ecosystem.
+
+Especially, I worked a lot with
+\useURL[url13][https://nodejs.org/][][Node.js]\from[url13] and popular
+backend frameworks like
+(\useURL[url14][https://nestjs.com/][][NestJS]\from[url14],
+\useURL[url15][https://expressjs.com/ru/][][Express]\from[url15],
+\useURL[url16][https://koajs.com/][][Koa]\from[url16],
+\useURL[url17][https://sailsjs.com/][][Sails]\from[url17]) at the
+backend side.
+
+At the backend, I used different DB solutions:
+\useURL[url18][https://www.mysql.com/][][MySQL]\from[url18],
+\useURL[url19][https://www.sqlite.org/][][SQLite]\from[url19],
+\useURL[url20][https://www.postgresql.org/][][PostgreSQL]\from[url20],
+\useURL[url21][https://www.mongodb.com/][][MongoDB]\from[url21],
+\useURL[url22][https://redis.io/][][Redis]\from[url22],
+\useURL[url23][https://aws.amazon.com/dynamodb][][DynamoDB]\from[url23].
+
+Additionally, I worked a lot with popular front-end frameworks like
+\useURL[url24][https://reactjs.org/][][React]\from[url24]
+(\useURL[url25][https://reactnative.dev/][][React Native]\from[url25]
+too) and \useURL[url26][https://vuejs.org/][][Vue.js]\from[url26].
+
+And of course, I worked with popular static type solutions for
+JavaScript:
+\useURL[url27][https://www.typescriptlang.org/][][TypeScript]\from[url27]
+and \useURL[url28][https://flow.org/][][Flow.js]\from[url28].
+
+{\bf \quotation{Secondary} Technologies}
+
+I worked with \type{C/C++} and
+\useURL[url29][https://www.rust-lang.org/][][Rust]\from[url29]
+ecosystem, especially when I was working with cryptography and
+cryptocurrencies.
+
+Also, I worked with \useURL[url30][https://dart.dev/][][Dart
+Language]\from[url30] and his ecosystem, when I was working in
+\useURL[url31][https://www.wrike.com/][][Wrike Company]\from[url31].
+
+At the start of my programming career, I worked with \type{C#} and
+\type{.NET}, especially, with \type{.NET MVC} and \type{.NET Web API}.
+
+And when I was a freelancer with pure
+\useURL[url32][https://www.php.net/][][PHP]\from[url32] and
+\useURL[url33][https://www.ruby-lang.org/ru/][][Ruby]\from[url33]
+(\useURL[url34][https://rubyonrails.org/][][RoR]\from[url34] and
+\useURL[url35][http://sinatrarb.com/][][Sinatra]\from[url35]).
+
+{\bf \quotation{Basic Knowledge} Technologies}
+
+In my spare time, I really like to work with:
+\useURL[url36][https://www.haskell.org/][][Haskell]\from[url36],
+\useURL[url37][https://www.idris-lang.org/][][Idris]\from[url37],
+\useURL[url38][https://reasonml.github.io/][][ReasonML]\from[url38]/\useURL[url39][https://ocaml.org/][][OCaml]\from[url39],
+\useURL[url40][https://elixir-lang.org/][][Elixir]\from[url40],
+\useURL[url41][https://clojure.org/][][Clojure]\from[url41] and
+\useURL[url42][https://golang.org/][][Golang]\from[url42]. Additionally,
+I basically know
+\useURL[url43][https://www.java.com][][Java]\from[url43],
+\useURL[url44][https://www.apple.com/swift/][][Swift]\from[url44],
+\useURL[url45][https://www.python.org/][][Python]\from[url45].
+
+\subsection[title={Open Source},reference={open-source}]
+
+{\bf My Own}
+
+\startitemize
+\item
+  \useURL[url46][https://github.com/JSMonk/hegel][][Hegel]\from[url46] -
+  a static type checker for JavaScript with high-level type inference
+  (Hindley-Milner algorithm) and a strong type system.
+\item
+  \useURL[url47][https://github.com/JSMonk/sweet-monads][][sweet-monads]\from[url47]
+  - zero-dependency monads for JavaScript.
+\stopitemize
+
+{\bf In which I make significant changes}
+
+\startitemize
+\item
+  \useURL[url48][https://github.com/paulmillr/chokidar][][chokidar]\from[url48]
+  - the most popular Node.js file watcher. The 3.0.0 version was
+  developed on my own.
+\item
+  \useURL[url49][https://github.com/paulmillr/readdirp][][readdirp]\from[url49]
+  - recursive \type{readdir} with additional goodies (15,603,219
+  downloads per week). The 3.0.0 version was developed on my own.
+\item
+  \useURL[url50][https://github.com/paulmillr/noble-ripemd160][][noble-ripemd160]\from[url50]
+  - a cryptography hash function.
+\item
+  \useURL[url51][https://github.com/paulmillr/noble-ed25519][][noble-ed25519]\from[url51]
+  - a digital signature library based at ed15519 schema.
+\item
+  \useURL[url52][https://github.com/paulmillr/noble-secp256k1][][noble-secp256k1]\from[url52]
+  - a digital signature library based at secp256k1 schema.
+\item
+  \useURL[url53][https://github.com/paulmillr/noble-bls12-381][][noble-bls12-381]\from[url53]
+  - a digital signature library based at noble12-381 schema.
+\stopitemize
+
+\startblockquote
+Initially, noble projects were developed by me and after were handed
+over to \useURL[url54][https://github.com/paulmillr][][Paul
+Miller]\from[url54]:
+\stopblockquote
+
+\subsection[title={Other},reference={other}]
+
+\startitemize
+\item
+  I teach students at
+  \useURL[url55][http://javascript.ninja/][][JavaScript.Ninja
+  Project]\from[url55]
+\item
+  I and my friend make a Russian-language podcast
+  \useURL[url56][https://underjs.ru/][][UnderJS]\from[url56] about
+  JavaScript and Compilers.
+\item
+  I also one of the organizers one of the largest conference in
+  Russian-language countries
+  \useURL[url57][https://holyjs.ru/][][HolyJS]\from[url57]
+\item
+  And also, I'm a public speaker. For now, I speak only for the Russian
+  language audience. My recent talks:
+  \useURL[url58][https://www.youtube.com/watch?v=JKvmwOuqVWI][][\quotation{Dissection
+  of Dart VM}]\from[url58],
+  \useURL[url59][https://www.youtube.com/watch?v=S0cCjbWuvzk&t=39s][][\quotation{Either
+  monad: theory and practice}]\from[url59],
+  \useURL[url60][https://www.youtube.com/watch?v=GIHrPm_YAIc&t=1715s][][\quotation{Why
+  and How I write one more static type checker}]\from[url60].
+\item
+  English level: B1/B2
+\stopitemize
+
+\stoptext
