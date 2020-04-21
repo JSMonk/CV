@@ -44,7 +44,7 @@ We already got results: defined separated responsibility area for our teams, whi
   As a result of research, I developed zero-dependency cryptocurrencies clients, which currently used in private projects(NDA).
 
 * [WookieeLabs](https://www.upwork.com/o/companies/~019c0fc838498df613/). 
-  [My Upwork profile at the company](https://www.upwork.com/o/profiles/users/~01743ab09e751efe1c/). I worked at different outsource projects as a software engineer: [Unicef Primero](https://www.primero.org/), [NextLead](https://www.nextlead.io/), [Crossover Health](https://crossoverhealth.com/).
+  [My Upwork profile at the company](https://www.upwork.com/o/profiles/users/~01743ab09e751efe1c/). I worked at different outsource projects as a software engineer: [Unicef Primero](https://www.primero.org/), [Crossover Health](https://crossoverhealth.com/), [doc.ai](https://doc.ai/), [NextLead](https://www.nextlead.io/).
 
 
 Technical Skills
