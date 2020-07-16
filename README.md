@@ -6,6 +6,7 @@ Kharkiv, Ukraine (ready to relocate)
 Email:   [a.kobzar.nlt@gmail.com](mailto:a.kobzar.nlt@gmail.com)
 GitHub:  [JSMonk](https://github.com/JSMonk)
 Twitter: [`@rage_monk`](https://twitter.com/rage_monk)
+LinkedIn: [Artem Kobzar](https://www.linkedin.com/in/artem-kobzar-b63576153/)
 --------------------------------------------------------------
 
 Education
