@@ -1,8 +1,8 @@
 # Artem Kobzar
 
 - <a.kobzar.nlt@gmail.com>
-- [GitHub: JSMonk](https://github.com/JSMonk)
-- [LinkedIn: JSMonk](https://www.linkedin.com/in/artem-kobzar-b63576153/)
+- [GitHub](https://github.com/JSMonk)
+- [LinkedIn](https://www.linkedin.com/in/artem-kobzar-b63576153/)
 - Kharkiv, Ukraine (ready to relocate)
 
 ## Recent Employment

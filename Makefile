@@ -1,6 +1,6 @@
 .PHONY: resume watch clean
 
-resume: resume.pdf resume.html
+resume: resume.pdf resume.html 
 
 watch:
 	ls *.md *.css | entr make resume
@@ -8,12 +8,14 @@ watch:
 name := $(shell grep "^\#" resume.md | head -1 | sed -e 's/^\#[[:space:]]*//' | xargs)
 
 resume.html: preamble.html resume.md postamble.html
-	cat preamble.html | sed -e 's/___NAME___/$(name)/' > $@
-	python3 -m markdown -x smarty resume.md >> $@
-	cat postamble.html >> $@
+	mkdir -p dist 
+	cat preamble.html | sed -e 's/___NAME___/$(name)/' > dist/$@
+	python3 -m markdown -x smarty resume.md >> dist/$@
+	cat postamble.html >> dist/$@
 
 resume.pdf: resume.html resume.css
-	weasyprint resume.html resume.pdf
+	cp resume.css dist/resume.css
+	weasyprint dist/resume.html dist/resume.pdf
 
 clean:
-	rm -f resume.html resume.pdf
+	rm -R dist
