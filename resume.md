@@ -45,11 +45,11 @@ In industry from <b>June 2016</b> (4.5 years of experience)
 
 ### Projects
 
-- <b><a href="https://github.com/JSMonk/hegel">Hegel</a></b> - a static type checker for JavaScript with high-level type inference (Hindley-Milner algorithm) and a strong type system (without implicit and explicit type cast).
-- <b>Noble Project</b> - pack of libraries which includes: [ripemd160](https://github.com/paulmillr/noble-ripemd160) hash function and [secp256k1](https://github.com/paulmillr/noble-secp256k1), [ed25519](https://github.com/paulmillr/noble-ed25519), [bls12-381](https://github.com/paulmillr/noble-bls12-381) digital signatures schemas. 
-- <b><a href="https://github.com/nestjs/schematics/pull/119">Schematics TS2GQL</a></b> - a compiler from TypeScript to GraphQL Schema Language for the [NestJS](https://github.com/nestjs) project, which gives an ability to define only types in typescript without additional schema for server API.
-- <b><a href="https://github.com/JSMonk/jsninja-moderator-bot">Haskell Moderator Bot</a></b> - bot which removes ads from telegram chat (additionally, I contributed in [Haskell Bot API](https://github.com/fizruk/telegram-bot-simple) to have more features in the moderator bot).
-- <b><a href="https://github.com/JSMonk/sweet-monads">sweet-monads</a></b> - zero-dependency monads for TypeScript.
+- <b><a href="https://github.com/JSMonk/hegel">Hegel</a></b>. A static type checker for JavaScript with high-level type inference (Hindley-Milner algorithm) and a strong type system (without implicit and explicit type cast).
+- <b>Noble Project</b>. Pack of libraries which includes: [ripemd160](https://github.com/paulmillr/noble-ripemd160) hash function and [secp256k1](https://github.com/paulmillr/noble-secp256k1), [ed25519](https://github.com/paulmillr/noble-ed25519), [bls12-381](https://github.com/paulmillr/noble-bls12-381) digital signatures schemas. 
+- <b><a href="https://github.com/JSMonk/sweet-monads">Sweet Monads</a></b>. A zero-dependency monads for TypeScript.
+- <b><a href="https://github.com/nestjs/schematics/pull/119">Schematics TS2GQL</a></b>. A compiler from TypeScript to GraphQL Schema Language for the [NestJS](https://github.com/nestjs) project, which gives an ability to define only types in typescript without additional schema for server API.
+- <b><a href="https://github.com/JSMonk/jsninja-moderator-bot">Haskell Moderator Bot</a></b>. A bot which removes ads from telegram chat (additionally, I contributed in [Haskell Bot API](https://github.com/fizruk/telegram-bot-simple) to have more features in the moderator bot).
 
 ### Additional Experience
 
