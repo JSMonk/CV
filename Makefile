@@ -15,7 +15,7 @@ resume.html: preamble.html resume.md postamble.html
 
 resume.pdf: resume.html resume.css
 	cp resume.css dist/resume.css
-	weasyprint dist/resume.html dist/resume.pdf
+	python3 -m weasyprint dist/resume.html dist/resume.pdf
 
 clean:
 	rm -R dist
