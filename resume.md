@@ -7,6 +7,8 @@
 
 ## Recent Employment
 
+In industry from <b>June 2016</b> (4.5 years of experience)
+
 ### <span>Senior Software Engineer, <a href="https://www.wrike.com/">Wrike</a></span> <span>Aug 2019 -- May 2020</span>
 
  - Designed a development analytic process from scratch.
@@ -20,15 +22,14 @@
 
  - Built cross-platform zero-dependency DSA schemas implementations (ed25519, secp256k1, bls12-381).
  - Built a cross-platform zero-dependency implementations hash function (ripemd160).
- - Reduced the size of the <a href="https://github.com/paulmillr/chokidar">chokidar</a> package by 17x times.
- - Boosted the performance at 200% for <a href="https://github.com/paulmillr/readdirp">readdirp</a> and <a href="https://github.com/paulmillr/chokidar">chokidar</a> with a stream with a backpressure pattern.
- - Reduced the RAM usage at 30% for <a href="https://github.com/paulmillr/readdirp">readdirp</a> and <a href="https://github.com/paulmillr/chokidar">chokidar</a> with a stream pattern and microtask usage.
+ - Reduced the size of the [chokidar](https://github.com/paulmillr/chokidar) package by 17x times.
+ - Boosted the performance at 200% for [readdirp](https://github.com/paulmillr/readdirp) and [chokidar](https://github.com/paulmillr/chokidar) with a stream with a backpressure pattern.
+ - Reduced the RAM usage at 30% for [readdirp](https://github.com/paulmillr/readdirp) and [chokidar](https://github.com/paulmillr/chokidar) with a stream pattern and microtask usage.
 
 ### <span>Middle JavaScript Developer, <a href="https://www.upwork.com/o/companies/~019c0fc838498df613/">WookieeLabs</a></span> <span>Dec 2017 -- Feb 2019</span>
 
  - Implemented a React Native module for declarative and fast animations for the [doc.ai](https://doc.ai/) project.
  - Implemented a service for fast every month update of Countries/Cities database for Avisare project.
- - Led the [NextLead](https://www.nextlead.io/) project as Team Lead from <a href="https://www.upwork.com/o/companies/~019c0fc838498df613/">WookieeLabs</a> side.
  - Built a customer filtering bot for the [NextLead](https://www.nextlead.io/) project.
  - Built a webpage constructor for the [NextLead](https://www.nextlead.io/) project.
  - Reduced the time of E2E tests execution at 50% for the [NextLead](https://www.nextlead.io/) project.
@@ -45,9 +46,9 @@
 ### Projects
 
 - <b><a href="https://github.com/JSMonk/hegel">Hegel</a></b> - a static type checker for JavaScript with high-level type inference (Hindley-Milner algorithm) and a strong type system (without implicit and explicit type cast).
-- <b>Noble Project</b> - pack of libraries which includes: <a href="https://github.com/paulmillr/noble-ripemd160">ripemd160</a> hash function and <a href="https://github.com/paulmillr/noble-secp256k1">secp256k1</a>, <a href="https://github.com/paulmillr/noble-ed25519">ed25519</a>, <a href="https://github.com/paulmillr/noble-bls12-381">bls12-381</a> digital signatures schemas. 
-- <b><a href="https://github.com/nestjs/schematics/pull/119">Schematics TS2GQL</a></b> - a compiler from TypeScript to GraphQL Schema Language for the <a href="https://github.com/nestjs">NestJS</a> project, which gives an ability to define only types in typescript without additional schema for server API.
-- <b><a href="https://github.com/JSMonk/jsninja-moderator-bot">Haskell Moderator Bot</a></b> - bot which removes ads from telegram chat (additionally, I contributed in <a href="https://github.com/fizruk/telegram-bot-simple">Haskell Bot API</a> to have more features in the moderator bot).
+- <b>Noble Project</b> - pack of libraries which includes: [ripemd160](https://github.com/paulmillr/noble-ripemd160) hash function and [secp256k1](https://github.com/paulmillr/noble-secp256k1), [ed25519](https://github.com/paulmillr/noble-ed25519), [bls12-381](https://github.com/paulmillr/noble-bls12-381) digital signatures schemas. 
+- <b><a href="https://github.com/nestjs/schematics/pull/119">Schematics TS2GQL</a></b> - a compiler from TypeScript to GraphQL Schema Language for the [NestJS](https://github.com/nestjs) project, which gives an ability to define only types in typescript without additional schema for server API.
+- <b><a href="https://github.com/JSMonk/jsninja-moderator-bot">Haskell Moderator Bot</a></b> - bot which removes ads from telegram chat (additionally, I contributed in [Haskell Bot API](https://github.com/fizruk/telegram-bot-simple) to have more features in the moderator bot).
 - <b><a href="https://github.com/JSMonk/sweet-monads">sweet-monads</a></b> - zero-dependency monads for TypeScript.
 
 ### Additional Experience
