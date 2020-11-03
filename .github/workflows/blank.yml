@@ -24,7 +24,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Install dependencies
-        run: pip3 install markdown weasyprint
+        run: |
+          apt-get install python3-setuptools
+          pip3 install markdown weasyprint
 
       # Runs a set of commands using the runners shell
       - name: Build resume
