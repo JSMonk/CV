@@ -59,5 +59,5 @@ In industry from <b>June 2016</b> (4.5 years of experience)
 
 ### Languages and Technologies
  - <b>Primary:</b> JavaScript, TypeScript, C++, SQL.
- - <b>Secondary:</b> Dart, Kotlin, Python, Ruby.
- - <b>Basic Knowledge:</b> Haskell, OCaml, Java, GoLang, Elixir.
+ - <b>Secondary:</b> Dart, Kotlin/Java, Python, Ruby.
+ - <b>Basic Knowledge:</b> Haskell, OCaml, GoLang, Elixir.
