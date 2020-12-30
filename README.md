@@ -58,6 +58,6 @@ In industry from <b>June 2016</b> (4.5 years of experience)
  - <b>Technical Conference co-organizer (from 2019):</b> co-organize the [HolyJS](https://holyjs.ru/) conference (one of the largest conferences in East Europe).
 
 ### Languages and Technologies
- - <b>Primary:</b> JavaScript, TypeScript, C++, SQL.
- - <b>Secondary:</b> Dart, Kotlin/Java, Python, Ruby.
- - <b>Basic Knowledge:</b> Haskell, OCaml, GoLang, Elixir.
+ - <b>Primary:</b> JavaScript, TypeScript, Kotlin/Java, SQL.
+ - <b>Secondary:</b> Dart, C++, Python, Ruby.
+ - <b>Basic Knowledge:</b> Haskell, Rust, OCaml, GoLang, Elixir.
