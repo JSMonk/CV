@@ -9,19 +9,19 @@
 
 In industry from <b>June 2016</b> (5 years of experience)
 
-### <span>Software Engineer/Consultant, <a href="https://auth0.com/">Auth0</a></span> <span>Feb 2021 -- Aug 2021</span>
+### <span>Senior Software Engineer/Consultant, <a href="https://auth0.com/">Auth0</a></span> <span>Feb 2021 -- Aug 2021</span>
 
- - Reworked the tests codebase with custom codemods that reduced tests execution time at 15%.
+ - Reworked the tests codebase with custom code mods that reduced tests execution time by 15%.
  - Designed and implemented Makefile linting process to keep the same API for all inner projects.
  - Designed and implemented isolated integration tests for CLI which works with Docker and Keychain.
  - Implemented engineering RFCs and proposals pipeline.
- - 60% of tasks for the period were completed by my own.
+ - 60% of tasks for the period were completed on my own.
 
 ### <span>Senior Software Engineer, <a href="https://www.wrike.com/">Wrike</a></span> <span>Aug 2019 -- Jun 2020</span>
 
  - Designed and implemented a development analytic process from scratch.
  - Built an analysis platform with an "analysis as a code" approach.
- - Built a code editor extensions for fast code team-owner searching.
+ - Built code editor extensions for fast code team-owner searching.
  - Built a CI/CD webhooks for notifications and MR auto-assign of responsible for the project part people.
  - Researched and redesigned API calls to reduce time to the interaction of Wrike web client at 30%.
 
@@ -47,7 +47,7 @@ In industry from <b>June 2016</b> (5 years of experience)
   - B.Sc in Computer Engineering, June 2019. GPA: 3.0 (ECTS: 86/100).
   - Thesis topic: "Implementation of a strong type system in AOT for dynamically typed programming languages".
   - M.Sc in System Programming, June 2021. GPA: 3.0 (ECTS: 84/100)
-  - Thesis topic: "Research of Iterators implementation methods for multi-language virtual machines".
+  - Thesis topic: "Research of Iterators implementation methods for polyglot virtual machines".
 
 ## Technical Experience
 
@@ -60,8 +60,8 @@ In industry from <b>June 2016</b> (5 years of experience)
 
 ### Additional Experience
 
- - <b>Instructor (from 2017):</b> teach students at [JavaScript.Ninja Project](http://javascript.ninja/).
- - <b>Technical Podcaster (from 2019):</b> do a podcast about compilers and engines for languages. [UnderJS](https://underjs.ru/).
+ - <b>Instructor (from 2017):</b> teach students with [JavaScript.Ninja Project](http://javascript.ninja/).
+ - <b>Technical Podcaster (from 2019):</b> do the [UnderJS](https://underjs.ru/) podcast about compilers and engines for languages..
  - <b>Technical Conference co-organizer (from 2019 to 2021):</b> co-organize the [HolyJS](https://holyjs.ru/) conference.
 
 ### Languages and Technologies
