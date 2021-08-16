@@ -7,13 +7,20 @@
 
 ## Recent Employment
 
-In industry from <b>June 2016</b> (4.5 years of experience)
+In industry from <b>June 2016</b> (5 years of experience)
 
-### <span>Senior Software Engineer, <a href="https://www.wrike.com/">Wrike</a></span> <span>Aug 2019 -- May 2020</span>
+### <span>Software Engineer/Consultant, <a href="https://auth0.com/">Auth0</a></span> <span>Feb 2021 -- Aug 2021</span>
 
- - Designed a development analytic process from scratch.
+ - Reworked the tests codebase with custom codemods that reduced tests execution time at 15%.
+ - Designed and implemented Makefile linting process to keep the same API for all inner projects.
+ - Designed and implemented isolated integration tests for CLI which works with Docker and Keychain.
+ - Implemented engineering RFCs and proposals pipeline.
+ - 60% of tasks for the period were completed by my own.
+
+### <span>Senior Software Engineer, <a href="https://www.wrike.com/">Wrike</a></span> <span>Aug 2019 -- Jun 2020</span>
+
+ - Designed and implemented a development analytic process from scratch.
  - Built an analysis platform with an "analysis as a code" approach.
- - Designed, developed, and supported the Knowledgebase (API of development analytic information).
  - Built a code editor extensions for fast code team-owner searching.
  - Built a CI/CD webhooks for notifications and MR auto-assign of responsible for the project part people.
  - Researched and redesigned API calls to reduce time to the interaction of Wrike web client at 30%.
@@ -39,25 +46,25 @@ In industry from <b>June 2016</b> (4.5 years of experience)
 ### <span>National Technical University "Kharkiv Polytechnic Institute"</span> <span>2015 -- 2021</span>
   - B.Sc in Computer Engineering, June 2019. GPA: 3.0 (ECTS: 86/100).
   - Thesis topic: "Implementation of a strong type system in AOT for dynamically typed programming languages".
-  - M.Sc in System Programming, in progress (in progress until June 2021).
+  - M.Sc in System Programming, June 2021. GPA: 3.0 (ECTS: 84/100)
+  - Thesis topic: "Research of Iterators implementation methods for polyglotical virtual machines".
 
 ## Technical Experience
 
 ### Projects
 
-- <b><a href="https://github.com/JSMonk/hegel">Hegel</a></b>. A static type checker for JavaScript with high-level type inference (Hindley-Milner algorithm) and a strong type system (without implicit and explicit type cast).
-- <b>Noble Project</b>. Pack of libraries which includes: [ripemd160](https://github.com/paulmillr/noble-ripemd160) hash function and [secp256k1](https://github.com/paulmillr/noble-secp256k1), [ed25519](https://github.com/paulmillr/noble-ed25519), [bls12-381](https://github.com/paulmillr/noble-bls12-381) digital signatures schemas. 
+- <b><a href="https://github.com/JSMonk/hegel">Hegel</a></b>. A static type checker for JavaScript with Hindley-Milner type inference and a sound type system.
+- <b>Noble Project</b>. Pack of libraries: [ripemd160](https://github.com/paulmillr/noble-ripemd160) hash function and [secp256k1](https://github.com/paulmillr/noble-secp256k1), [ed25519](https://github.com/paulmillr/noble-ed25519), [bls12-381](https://github.com/paulmillr/noble-bls12-381) DSA schemas. 
 - <b><a href="https://github.com/JSMonk/sweet-monads">Sweet Monads</a></b>. Zero-dependency monads for TypeScript.
-- <b><a href="https://github.com/nestjs/schematics/pull/119">Schematics TS2GQL</a></b>. A compiler from TypeScript to GraphQL Schema Language for the [NestJS](https://github.com/nestjs) project, which gives an ability to define only types in typescript without additional schema for server API.
-- <b><a href="https://github.com/JSMonk/jsninja-moderator-bot">Haskell Moderator Bot</a></b>. A bot which removes ads from telegram chat (additionally, I contributed in [Haskell Bot API](https://github.com/fizruk/telegram-bot-simple) to have more features in the moderator bot).
+- <b><a href="https://github.com/nestjs/schematics/pull/119">Schematics TS2GQL</a></b>. A compiler from TypeScript to GraphQL Schema Language for the [NestJS](https://github.com/nestjs) project.
 
 ### Additional Experience
 
  - <b>Instructor (from 2017):</b> teach students at [JavaScript.Ninja Project](http://javascript.ninja/).
- - <b>Technical Podcaster (from 2019):</b> do a podcast about compilers and engines for languages. [UnderJS](https://underjs.ru/).
- - <b>Technical Conference co-organizer (from 2019):</b> co-organize the [HolyJS](https://holyjs.ru/) conference (one of the largest conferences in East Europe).
+ - <b>Technical Podcaster (from 2019):</b> do the [UnderJS](https://underjs.ru/) podcast about compilers and engines for languages..
+ - <b>Technical Conference co-organizer (from 2019 to 2021):</b> co-organize the [HolyJS](https://holyjs.ru/) conference.
 
 ### Languages and Technologies
  - <b>Primary:</b> JavaScript, TypeScript, Kotlin/Java, SQL.
- - <b>Secondary:</b> Dart, C++, Python, Ruby.
- - <b>Basic Knowledge:</b> Haskell, Rust, OCaml, GoLang, Elixir.
+ - <b>Secondary:</b> Dart, Python, Ruby/Crystal.
+ - <b>Basic Knowledge:</b> C++, Haskell, Rust, OCaml, GoLang, Elixir.
