@@ -7,7 +7,7 @@
 
 ## Recent Employment
 
-In industry from <b>June 2016</b> (5 years of experience)
+In the industry since <b>2016</b>
 
 ### <span>Senior Software Engineer <a href="https://www.jetbrains.com/">JetBrains</a></span> <span>Aug 2021 -- Today</span>
 
@@ -59,8 +59,9 @@ In industry from <b>June 2016</b> (5 years of experience)
 
 ### Additional Experience
 
- - <b>Instructor (from 2017):</b> teach students with [JavaScript.Ninja Project](http://javascript.ninja/).
- - <b>Technical Podcaster (from 2019):</b> do the [UnderJS](https://underjs.ru/) podcast about compilers and engines for languages..
+ - <b>TC39 Invited Expert (since 2023):</b> work on improvements to the [Source Map Specification](https://tc39.es/source-map-spec/).
+ - <b>Instructor (since 2017):</b> teach students with [JavaScript.Ninja Project](http://javascript.ninja/).
+ - <b>Technical Podcaster (since 2019):</b> do the [UnderJS](https://underjs.ru/) podcast about compilers and engines for languages.
  - <b>Technical Conference co-organizer (from 2019 to 2021):</b> co-organize the [HolyJS](https://holyjs.ru/) conference.
 
 ### Languages and Technologies
