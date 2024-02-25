@@ -14,7 +14,7 @@ In industry from <b>June 2016</b> (5 years of experience)
  - Designed and implemented compilation of Kotlin using modern ECMAScript features: modules, classes, generators
  - Designed and implemented file-to-file compilation for Kotlin-to-JS compiler (including an incremental compilation)
  - Improved existing interop between Kotlin and JS/TS (collections interop, nominal interfaces, type-safe JS objects)
- - Implemented .d.ts files generating for Kotlin-to-Wasm compiler
+ - Implemented TypeScript definitions generating for Kotlin-to-Wasm compiler
 
 ### <span>Senior Software Engineer/Consultant, <a href="https://auth0.com/">Auth0</a></span> <span>Feb 2021 -- Aug 2021</span>
 
