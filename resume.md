@@ -3,11 +3,18 @@
 - <a.kobzar.nlt@gmail.com>
 - [GitHub](https://github.com/JSMonk)
 - [LinkedIn](https://www.linkedin.com/in/artem-kobzar-b63576153/)
-- Kharkiv, Ukraine (ready to relocate)
+- Amsterdam, The Netherlands
 
 ## Recent Employment
 
 In industry from <b>June 2016</b> (5 years of experience)
+
+### <span>Senior Software Engineer <a href="https://www.jetbrains.com/">JetBrains</a></span> <span>Aug 2021 -- Today</span>
+
+ - Designed and implemented compilation of Kotlin using modern ECMAScript features: modules, classes, generators
+ - Designed and implemented file-to-file compilation for Kotlin-to-JS compiler (including an incremental compilation)
+ - Improved existing interop between Kotlin and JS/TS (collections interop, nominal interfaces, type-safe JS objects)
+ - Implemented .d.ts files generating for Kotlin-to-Wasm compiler
 
 ### <span>Senior Software Engineer/Consultant, <a href="https://auth0.com/">Auth0</a></span> <span>Feb 2021 -- Aug 2021</span>
 
@@ -32,14 +39,6 @@ In industry from <b>June 2016</b> (5 years of experience)
  - Reduced the size of the [chokidar](https://github.com/paulmillr/chokidar) package by 17x times.
  - Boosted the performance at 200% for [readdirp](https://github.com/paulmillr/readdirp) and [chokidar](https://github.com/paulmillr/chokidar) with a stream with a backpressure pattern.
  - Reduced the RAM usage at 30% for [readdirp](https://github.com/paulmillr/readdirp) and [chokidar](https://github.com/paulmillr/chokidar) with a stream pattern and microtask usage.
-
-### <span>Middle JavaScript Developer, <a href="https://www.upwork.com/o/companies/~019c0fc838498df613/">WookieeLabs</a></span> <span>Dec 2017 -- Feb 2019</span>
-
- - Implemented a React Native module for declarative and fast animations for the [doc.ai](https://doc.ai/) project.
- - Implemented a service for fast every month update of Countries/Cities database for Avisare project.
- - Built a customer filtering bot for the [NextLead](https://www.nextlead.io/) project.
- - Built a webpage constructor for the [NextLead](https://www.nextlead.io/) project.
- - Reduced the time of E2E tests execution at 50% for the [NextLead](https://www.nextlead.io/) project.
 
 ## Education
 
